@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TvAppMK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Theme Mode Entries -->
+    <string-array name="theme_mode_entries">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_mode_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <!-- Grid View Size Entries -->
+    <string-array name="grid_size_entries">
+        <item>2x2</item>
+        <item>3x3</item>
+        <item>4x4</item>
+    </string-array>
+
+    <string-array name="grid_size_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Language Entries -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Macedonian</item>
+        <item>Albanian</item>
+        <!-- Add more languages here -->
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>mk</item>
+        <item>al</item>
+        <!-- Add more language codes here -->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

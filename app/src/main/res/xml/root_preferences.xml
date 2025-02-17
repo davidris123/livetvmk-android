@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Theme Mode Preference -->
+    <PreferenceCategory
+        android:key="theme_settings"
+        android:title="Theme Mode">
+
+        <ListPreference
+            android:key="theme_mode"
+            android:title="Choose Theme"
+            android:summary="Select between Light, Dark, or System Default"
+            android:defaultValue="system"
+            android:entries="@array/theme_mode_entries"
+            android:entryValues="@array/theme_mode_values"
+            android:dialogTitle="Select Theme" />
+    </PreferenceCategory>
+
+    <!-- Grid View Size Preference -->
+    <PreferenceCategory
+        android:key="grid_settings"
+        android:title="Grid View Size">
+
+        <ListPreference
+            android:key="grid_size"
+            android:title="Grid View Size"
+            android:summary="Choose the number of columns for the grid"
+            android:defaultValue="2"
+            android:entries="@array/grid_size_entries"
+            android:entryValues="@array/grid_size_values"
+            android:dialogTitle="Select Grid Size" />
+    </PreferenceCategory>
+
+    <!-- Language Preference -->
+    <PreferenceCategory
+        android:key="language_settings"
+        android:title="Language">
+
+        <ListPreference
+            android:key="language"
+            android:title="Select Language"
+            android:summary="Choose a language for the app"
+            android:defaultValue="en"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:dialogTitle="Select Language" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

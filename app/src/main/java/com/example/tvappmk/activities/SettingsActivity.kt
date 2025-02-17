@@ -1,0 +1,45 @@
+package com.example.tvappmk.activities
+
+import android.os.Bundle
+import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import com.example.tvappmk.R
+import com.example.tvappmk.fragments.SettingsFragment
+
+class SettingsActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.settings_activity)
+
+        // Set up the toolbar
+        val toolbar: Toolbar = findViewById(R.id.topAppBar)
+        setSupportActionBar(toolbar)
+
+        // Enable the back button (up button) and set the title
+        supportActionBar?.apply {
+            setDisplayHomeAsUpEnabled(true) // Show the back arrow
+            title = "Settings"  // Set the title to "Settings"
+        }
+
+        // Load the fragment into the container
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings, SettingsFragment())
+                .commit()
+        }
+    }
+
+
+    // Handle the back arrow click (go back)
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressedDispatcher.onBackPressed()  // Handle the back button press
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+}
