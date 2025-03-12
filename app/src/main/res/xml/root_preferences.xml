@@ -1,19 +1,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Theme Mode Preference -->
-    <PreferenceCategory
-        android:key="theme_settings"
-        android:title="Theme Mode">
+<!--    <PreferenceCategory-->
+<!--        android:key="theme_settings"-->
+<!--        android:title="Theme Mode">-->
 
-        <ListPreference
-            android:key="theme_mode"
-            android:title="Choose Theme"
-            android:summary="Select between Light, Dark, or System Default"
-            android:defaultValue="system"
-            android:entries="@array/theme_mode_entries"
-            android:entryValues="@array/theme_mode_values"
-            android:dialogTitle="Select Theme" />
-    </PreferenceCategory>
+<!--        <ListPreference-->
+<!--            android:key="theme_mode"-->
+<!--            android:title="Choose Theme"-->
+<!--            android:summary="Select between Light, Dark, or System Default"-->
+<!--            android:defaultValue="system"-->
+<!--            android:entries="@array/theme_mode_entries"-->
+<!--            android:entryValues="@array/theme_mode_values"-->
+<!--            android:dialogTitle="Select Theme" />-->
+<!--    </PreferenceCategory>-->
 
     <!-- Grid View Size Preference -->
     <PreferenceCategory
@@ -31,18 +31,18 @@
     </PreferenceCategory>
 
     <!-- Language Preference -->
-    <PreferenceCategory
-        android:key="language_settings"
-        android:title="Language">
+<!--    <PreferenceCategory-->
+<!--        android:key="language_settings"-->
+<!--        android:title="Language">-->
 
-        <ListPreference
-            android:key="language"
-            android:title="Select Language"
-            android:summary="Choose a language for the app"
-            android:defaultValue="en"
-            android:entries="@array/language_entries"
-            android:entryValues="@array/language_values"
-            android:dialogTitle="Select Language" />
-    </PreferenceCategory>
+<!--        <ListPreference-->
+<!--            android:key="language"-->
+<!--            android:title="Select Language"-->
+<!--            android:summary="Choose a language for the app"-->
+<!--            android:defaultValue="en"-->
+<!--            android:entries="@array/language_entries"-->
+<!--            android:entryValues="@array/language_values"-->
+<!--            android:dialogTitle="Select Language" />-->
+<!--    </PreferenceCategory>-->
 
 </PreferenceScreen>
