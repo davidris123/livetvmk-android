@@ -9,9 +9,21 @@ TV App MK is a simple Android application designed for watching live Macedonian 
 - **Favorites**: Save the channels.
 
 ## Screenshots
-![Home Screen]<img src="Screenshot_20250718_180701.png" width="300" height="300" alt="Home Screen">
-![Favorites Screen]<img src="Screenshot_20250718_180853.png" width="300" height="300" alt="Favorites Screen">
-![Player Screen]<img src="Screenshot_20250718_180938.png" width="300" height="300" alt="Player Screen">
+<p align="center">
+  <img src="Screenshot_20250718_180701.png" width="300" height="300" alt="Home Screen">
+  <br><em>Home Screen</em>
+</p>
+
+<p align="center">
+  <img src="Screenshot_20250718_180853.png" width="300" height="300" alt="Favorites Screen">
+  <br><em>Favorites Screen</em>
+</p>
+
+<p align="center">
+  <img src="Screenshot_20250718_180938.png" width="300" height="300" alt="Player Screen">
+  <br><em>Player Screen</em>
+</p>
+
 
 ## Installation
 
